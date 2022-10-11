@@ -1,0 +1,94 @@
+* {
+   margin: 0; 
+}
+
+
+body {
+    background-color: white;
+}
+
+.header-container {
+    height: 30px;
+    background-color: lightgrey;
+    padding: 10px 20px;
+}
+
+.small-box {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin: -5px;
+    background-color: rgb(40, 148, 216);
+}
+
+.text-section {
+    margin: 50px;
+}
+
+
+.blue {
+    height: 100px;
+    background-color: rgb(40, 148, 216);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.greenblue {
+    height: 100px;
+    background-color: rgb(0, 249, 162);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.yellowgreen {
+    height: 100px;
+    background-color: rgb(128, 255, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    height: 100px;
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.question-mark {
+    display: flex;
+    float: right;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: rgb(37, 54, 65);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration-thickness: 25px;
+    font-size: 25px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 0.5s;
+}
+
+.question-mark:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(252, 190, 73);
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor:pointer;
+}
